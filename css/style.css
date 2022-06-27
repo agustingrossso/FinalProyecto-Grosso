@@ -1,0 +1,1207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Comfortaa";
+}
+
+/* HEADER - NAVBAR */
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #203455;
+
+
+}
+
+nav a {
+    color: white !important;
+    margin-left: 5px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button {
+    color: white !important;
+    border-color: white !important;
+}
+
+button:hover {
+    background-color: #4a77c0 !important;
+}
+
+/* CONTENIDO PRINCIPAL - MAIN */
+
+main .titulos {
+    position: absolute;
+    text-align: center;
+    font-size: 84px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 12px rgb(0, 0, 0);
+    margin-left: 800px;
+    margin-top: 250px;
+}
+
+main h2 {
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 5px 12px rgb(0, 0, 0);
+    font-size: 64px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    margin-left: 420px;
+    margin-top: 320px;
+    padding-top: 20px;
+
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 30ch;
+
+    animation: typing 2s steps(30), blink 5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+
+img {
+    max-width: 1200px;
+    margin-left: 352px;
+
+}
+
+/* GAMING */
+/* MAIN - CONTENIDO PRINCIPAL */
+.presentacion .titulosGaming {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    padding-top: 75px;
+    margin-left: 690px;
+}
+
+.grillaImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "ImagenPlay ImagenControl"
+        "ImagenMove Imagen";
+}
+
+.ImagenPlay {
+    grid-area: ImagenPlay;
+}
+
+.ImagenControl {
+    grid-area: ImagenControl;
+}
+
+.ImagenMove {
+    grid-area: ImagenMove;
+}
+
+.Imagen {
+    grid-area: Imagen;
+}
+
+
+
+.ImagenPlay img {
+    max-width: 600px;
+}
+
+
+
+.ImagenControl img {
+    max-width: 600px;
+    margin-left: 0px;
+}
+
+.ImagenMove img {
+    max-width: 600px;
+}
+
+.Imagen img {
+    max-width: 600px;
+    margin-left: 0px;
+}
+
+
+.productosUno {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -785px;
+    color: rgb(0, 0, 0);
+    margin-left: 500px;
+}
+
+.productosUno:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.productosDos {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 880px;
+    color: rgb(0, 0, 0);
+    margin-left: 550px;
+}
+
+.productosDos:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.productosTres {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 70px;
+    color: rgb(0, 0, 0);
+    margin-left: 1150px;
+}
+
+.productosTres:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.productosCuatro {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 880px;
+    color: rgb(0, 0, 0);
+    margin-left: 1150px;
+}
+
+.productosCuatro:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.seccionDos .texto {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    margin-top: 25px;
+    margin-left: 365px;
+}
+
+.seccionDos .textoDos {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 95px;
+    margin-left: 370px;
+}
+
+/* BOTON INFORMACIÓN */
+.Info {
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(174, 174, 174, 0);
+    margin-left: 570px;
+    position: absolute;
+    margin-top: 655px;
+}
+
+.grillaImg button:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.InfoDos {
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(174, 174, 174, 0);
+    color: black !important;
+    border-color: black !important;
+    margin-left: 1170px;
+    position: absolute;
+    margin-top: 655px;
+}
+
+.InfoTres {
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(174, 174, 174, 0);
+    color: black !important;
+    border-color: black !important;
+    margin-left: 570px;
+    position: absolute;
+    margin-top: 1500px;
+}
+
+.InfoCuatro {
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(174, 174, 174, 0);
+    color: black !important;
+    border-color: black !important;
+    margin-left: 1170px;
+    position: absolute;
+    margin-top: 1500px;
+}
+
+/* CAMARAS */
+.presentacion p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    padding-top: 25px;
+    margin-left: 390px;
+}
+
+.presentacion .subTitulo {
+    font-size: 20px;
+    margin-top: 75px;
+    margin-left: 360px;
+}
+
+.P-Analogicas {
+    margin-top: -785px;
+    color: rgb(0, 0, 0);
+    margin-left: 515px;
+    text-shadow: 2px 2px 5px rgb(105, 101, 101);
+}
+
+.P-Reflex {
+    margin-top: -785px;
+    color: rgb(255, 255, 255);
+    margin-left: 250px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.P-Opticas {
+    margin-top: -780px;
+    color: rgb(255, 255, 255);
+    margin-left: 550px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+}
+
+.P-Iluminacion {
+    margin-top: -780px;
+    color: rgb(0, 0, 0);
+    margin-left: 170px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.textoGoPro {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+    margin-top: 25px;
+    margin-left: 1045px;
+}
+
+.textoDosGo {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 105px;
+    margin-left: 1010px;
+}
+
+.btn-nuevo {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: -375px;
+    position: absolute;
+    margin-top: 675px;
+}
+
+.btn-nuevoBlanco {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0) !important;
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: -375px;
+    position: absolute;
+    margin-top: 675px;
+}
+
+.btn-nuevoBlanco .Opticas {
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: -75px;
+    position: absolute;
+    margin-top: 675px;
+}
+
+.btn-nuevo .Iluminacion {
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: -375px;
+    position: absolute;
+    margin-top: 675px;
+}
+
+.Transparencia img {
+    opacity: .7;
+}
+
+.Transparencia img:hover {
+    opacity: 1;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+/* SMARTPHONE */
+.presentacion .titulosSmart{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    padding-top: 75px;
+    margin-left: 690px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+/*.contenedorImg {
+    background-color: black;
+    max-width: 12000px;
+    margin-left: 352px;
+
+}*/
+.SmartImg{
+    max-width: 1200px;
+    margin-left: 352px;
+}
+.Celulares{
+    background-color: rgb(214, 214, 214);
+    max-width: 1200px;
+    margin-left: 352px;
+    
+}
+.Celulares img{
+    max-width: 255px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.Celulares p .TextoSecundario{
+    position:absolute;
+    font-size: 55px;
+}
+
+ .NombreCelularUno{
+    float: left;
+    display: inline;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 125px;
+    color: black;
+    font-size: 20px;
+}
+ 
+.SubLoremUno{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.NombreCelularDos{
+    float: left;
+    display: inline;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 490px;
+    color: black;
+    font-size: 20px;
+}
+.SubLoremDos{
+    font-size: 10px;
+    margin-top: -63px;
+    margin-left: 450px;
+}
+.NombreCelularTres{
+    float: left;
+    display: inline;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 850px;
+    color: black;
+    font-size: 20px;
+}
+.SubLoremTres{
+    font-size: 10px;
+    margin-top: -63px;
+    margin-left: 820px;
+}
+
+.grillaSmart {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 1px 1px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "SmartUno SmartUno"
+      "SmartDos SmartDos";
+  }
+  
+  .SmartUno { grid-area: SmartUno; }
+  
+  .SmartDos { grid-area: SmartDos; }
+  
+  
+.grillaSmart img{
+    max-width: 455px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.grillaSmart .SmartUno{
+    background-color: #B9B9B9;
+    max-width: 1200px;
+    margin-left: 352px;
+}
+.grillaSmart .CeluGrilla{
+    margin-left: 25px;
+}
+.grillaSmart .SmartDos{
+    background-color: #D1D1D1;
+    max-width: 1200px;
+    margin-left: 352px;
+}
+.grillaSmart .CeluGrillaDos{
+    margin-left: 720px;
+}
+
+p.Infinit{
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -560px;
+    color: rgb(50, 50, 50);
+}
+ .LoremInfinit{
+    margin-left: 610px;
+    position: absolute;
+    margin-top: -480px;
+    color: rgb(50, 50, 50);
+    font-size: 25px;
+}
+.Xperia{
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: -560px;
+    color: rgb(50, 50, 50);
+}
+.LoremXperia{
+    margin-left: 110px;
+    position: absolute;
+    margin-top: -470px;
+    color: rgb(50, 50, 50);
+    font-size: 25px;
+}
+
+.btn-Smart{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0) !important;
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 475px;
+}
+.btn-SmartDos{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0) !important;
+    max-width: 270px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: -920px;
+    position: absolute;
+    margin-top: 475px;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #203455;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 80px;
+    padding-top: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .lista {
+    display: inline;
+    margin-top: 25px;
+    padding-left: 25px;
+}
+
+
+/* RESPONSIVE */
+
+/* XXL 1400px */
+@media (max-width:1400px) {
+
+    /* INDEX */
+    img {
+        max-width: 1200px;
+        margin-left: 100px;
+
+    }
+
+    main .titulos {
+        margin-left: 520px;
+        text-align: center;
+    }
+
+    main h2 {
+        margin-left: 150px;
+    }
+
+    /* GAMING */
+    .presentacion .titulosGaming {
+        margin-left: 480px;
+    }
+
+    .productosUno {
+        margin-left: 250px;
+    }
+
+    .productosDos {
+        margin-left: 300px;
+    }
+
+    .productosTres {
+        margin-left: 850px;
+    }
+
+    .productosCuatro {
+        margin-left: 850px;
+    }
+
+    .Info {
+        margin-left: 325px;
+    }
+
+    .InfoDos {
+        margin-left: 925px;
+    }
+
+    .InfoTres {
+        margin-left: 325px;
+    }
+
+    .InfoCuatro {
+        margin-left: 925px;
+    }
+
+    .seccionDos .texto {
+        margin-left: 100px;
+    }
+
+    .seccionDos .textoDos {
+        margin-left: 105px;
+    }
+
+    /* CAMARAS */
+    .presentacion p {
+        margin-left: 145px;
+    }
+
+    .presentacion .subTitulo {
+        margin-left: 115px;
+    }
+
+    .P-Reflex {
+        margin-left: 250px;
+    }
+
+    .P-Iluminacion {
+        margin-left: 180px;
+    }
+
+    .textoGoPro {
+        margin-left: 775px;
+    }
+
+    .textoDosGo {
+        margin-left: 750px;
+    }
+    /* SMARTPHONE */ 
+    .SmartImg{
+        max-width: 1200px;
+        margin-left: 100px;
+    }
+    .presentacion .titulosSmart{
+        margin-left: 520px;
+    }
+    .Celulares{
+        margin-left: 100px;
+    }
+    .grillaSmart{
+        margin-left: -252px;
+    }
+
+
+}
+
+/* XL 1200px */
+@media (max-width:1200px) {
+
+    /* INDEX */
+    img {
+        max-width: 1200px;
+        margin-left: 0px;
+    }
+
+    main .titulos {
+        margin-left: 420px;
+        text-align: center;
+    }
+
+    main h2 {
+        margin-left: 65px;
+    }
+
+    /*GAMING*/
+    .presentacion .titulosGaming {
+        margin-left: 350px;
+    }
+
+    .productosUno {
+        margin-left: 150px;
+    }
+
+    .productosDos {
+        margin-left: 200px;
+    }
+
+    .productosTres {
+        margin-left: 750px;
+    }
+    .P-Reflex{
+        margin-left: 220px;
+    }
+
+    .productosCuatro {
+        margin-left: 750px;
+    }
+    .P-Iluminacion{
+        margin-left: 200px;
+    }
+
+    .seccionDos .texto {
+        margin-left: 0px;
+    }
+
+    .seccionDos .textoDos {
+        margin-left: 5px;
+    }
+
+    .Info {
+        margin-left: 225px;
+    }
+
+    .InfoDos {
+        margin-left: 825px;
+    }
+
+    .InfoTres {
+        margin-left: 225px;
+    }
+
+    .InfoCuatro {
+        margin-left: 825px;
+    }
+    .textoGoPro{
+        margin-left: 650px;
+    }
+    .textoDosGo{
+        margin-left: 620px;
+    }
+    /*SMARTPHONE*/ 
+     .SmartImg{
+        max-width: 1200px;
+        margin-left: 0px;
+     }
+     .presentacion .titulosSmart{
+        margin-left: 420px;
+        text-align: center;
+     }
+     .Celulares{
+        max-width: 1200px;
+        margin-left: 0px;
+     }
+     .grillaSmart{
+        margin-left: -352px;
+     }
+
+}
+
+/* LG 992px */
+@media (max-width:992px) {
+
+    /*INDEX*/
+    img {
+        max-width: 995px;
+    }
+
+    main .titulos {
+        margin-left: 320px;
+    }
+
+    main h2 {
+        font-size: 50px;
+    }
+
+    /* GAMING */
+    .camarasImg {
+        max-width: 992px;
+    }
+
+    .presentacion p {
+        margin-left: 230px;
+    }
+
+    .ImagenPlay img {
+        max-width: 400px;
+    }
+
+    .productosUno {
+        margin-left: 50px;
+    }
+
+    .ImagenControl img {
+        max-width: 400px;
+        margin-left: 80px;
+    }
+
+    .productosTres {
+        margin-left: 600px;
+    }
+
+    .ImagenMove img {
+        max-width: 400px;
+    }
+
+    .productosDos {
+        margin-left: 100px;
+        margin-top: 580px;
+    }
+
+    .Imagen img {
+        max-width: 400px;
+        margin-left: 80px;
+    }
+
+    .productosCuatro {
+        margin-left: 580px;
+        margin-top: 580px;
+    }
+
+    .Info {
+        margin-top: 450px;
+        margin-left: 125px;
+    }
+
+    .InfoDos {
+        margin-top: 450px;
+        margin-left: 650px;
+    }
+
+    .InfoTres {
+        margin-top: 1000px;
+        margin-left: 125px;
+    }
+
+    .InfoCuatro {
+        margin-top: 1000px;
+        margin-left: 650px;
+    }
+
+    .imagenCuatro {
+        max-width: 920px;
+    }
+    /*SMARTPHONE*/ 
+    .SmartImg{
+        max-width: 992px;
+    }
+    .presentacion .titulosSmart{
+        margin-left: 320px;
+    }
+    .Celulares img{
+        max-width: 200px;
+        margin-left: 95px;
+    }
+    .NombreCelularUno{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .SubLoremUno{
+        display: none;
+    }
+    .NombreCelularDos{
+        font-size: 15px;
+        margin-top: -10px;
+        margin-left: 420px;
+    }
+    .SubLoremDos{
+        display: none;
+    }
+    .NombreCelularTres{
+        font-size: 15px;
+        margin-top: -10px;
+        margin-left: 730px;
+    }
+    .SubLoremTres{
+       display: none;
+    }
+    .grillaSmart .CeluGrilla{
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    .SmartUno .Infinit{
+        font-size: 30px;
+        margin-left: 535px;
+    }
+    .SmartUno .LoremInfinit{
+        margin-left: 535px;
+    }
+    .btn-Smart{
+        margin-left: 220px;
+    }
+    .SmartDos .CeluGrillaDos{
+        max-width: 400px;
+        margin-left: 570px;
+    }
+    .Xperia{
+        font-size: 30px;
+        margin-top: -525px;
+    }
+    .LoremXperia{
+        margin-left: 25px;
+    }
+    .btn-SmartDos{
+        margin-left: -755px;
+    }
+    .imagenSmartFooter{
+        max-width: 992px;
+    }
+}
+
+/* MD 768px */
+@media (max-width:768px) {
+
+    /*INDEX*/
+    img {
+        max-width: 768px;
+    }
+
+    main .titulos {
+        font-size: 64px;
+        margin-left: 250px;
+        margin-top: 160px;
+    }
+
+    main h2 {
+        margin-top: 210px;
+        font-size: 40px;
+        margin-left: 35px;
+    }
+
+    /*GAMING*/
+    .camarasImg {
+        max-width: 768px;
+    }
+
+    .presentacion p {
+        font-size: 40px;
+        margin-left: 200px;
+    }
+
+    .ImagenPlay img {
+        max-width: 300px;
+
+    }
+
+    .productosUno {
+        font-size: 35px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    .ImagenControl img {
+        max-width: 300px;
+        margin-left: 80px;
+    }
+
+    .productosTres {
+        font-size: 35px;
+        margin-top: 25px;
+        margin-left: 515px;
+    }
+
+    .ImagenMove img {
+        max-width: 300px;
+
+    }
+
+    .productosDos {
+        font-size: 35px;
+        margin-left: 60px;
+        margin-top: 425px;
+    }
+
+    .Imagen img {
+        max-width: 300px;
+        margin-left: 80px;
+    }
+
+    .productosCuatro {
+        font-size: 35px;
+        margin-top: 425px;
+        margin-left: 515px;
+    }
+
+    .Info {
+        margin-top: 320px;
+        margin-left: 80px;
+    }
+
+    .InfoDos {
+        margin-top: 320px;
+        margin-left: 540px;
+    }
+
+    .InfoTres {
+        margin-top: 720px;
+        margin-left: 80px;
+    }
+
+    .InfoCuatro {
+        margin-top: 720px;
+        margin-left: 540px;
+    }
+
+    .imagenCuatro {
+        max-width: 765px;
+    }
+
+    .seccionDos .texto {
+        font-size: 45px;
+    }
+
+    .seccionDos .textoDos {
+        font-size: 15px;
+    }
+    /*SMARTPHONES*/ 
+    .SmartImg{
+        max-width: 768px;
+    }
+    .presentacion .titulosSmart{
+        margin-left: 190px;
+        margin-top: -25px;
+    }
+    .Celulares img{
+        max-width: 140px;
+        margin-left: 80px;
+    }
+    .NombreCelularUno{
+        margin-left: 75px;
+    }
+    .NombreCelularDos{
+        margin-left: 300px;
+    }
+    .NombreCelularTres{
+        margin-left: 530px;
+    }
+    .SmartUno .Infinit{
+        font-size: 20px;
+        margin-left: 500px;
+        margin-top: -540px;
+    }
+    .LoremInfinit{
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    .btn-Smart{
+        margin-left: 100px;
+    }
+    .SmartDos .CeluGrillaDos{
+        margin-left: 350px;
+    }
+    .Xperia{
+        font-size: 20px;
+        margin-left: 85px;
+    }
+    .LoremXperia{
+        font-size:15px ;
+    }
+    .btn-SmartDos{
+        margin-left: -680px;
+    }
+    .imagenSmartFooter{
+        max-width: 768px;
+    }
+
+
+}
+
+/* SM 576px */
+@media (max-width:576px) {
+
+    /* INDEX */
+    img {
+        max-width: 577px;
+    }
+
+    main .titulos {
+        font-size: 54px;
+        margin-left: 180px;
+    }
+
+    main h2 {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+    /* GAMING */
+    .camarasImg {
+        max-width: 576px;
+    }
+
+    .presentacion p {
+        font-size: 25px;
+        margin-top: -25px;
+        margin-left: 155px;
+    }
+
+    .ImagenPlay img {
+        max-width: 200px;
+    }
+
+    .productosUno {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .ImagenControl img {
+        max-width: 200px;
+        margin-left: 90px;
+
+    }
+
+    .productosTres {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 420px;
+    }
+
+    .ImagenMove img {
+        max-width: 200px;
+    }
+
+    .productosDos {
+        font-size: 20px;
+        margin-top: 280px;
+    }
+
+    .Imagen img {
+        max-width: 200px;
+        margin-left: 90px;
+    }
+
+    .productosCuatro {
+        font-size: 20px;
+        margin-top: 280px;
+        margin-left: 420px;
+    }
+
+    .Info {
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+
+    .InfoDos {
+        margin-top: 200px;
+        margin-left: 400px;
+    }
+
+    .InfoTres {
+        margin-top: 480px;
+        margin-left: 20px;
+    }
+
+    .InfoCuatro {
+        margin-top: 480px;
+        margin-left: 400px;
+    }
+
+    .imagenCuatro {
+        max-width: 580px;
+    }
+
+    .seccionDos .texto {
+        font-size: 35px;
+    }
+
+    .seccionDos .textoDos {
+        margin-left: 0;
+        margin-top: 65px;
+        font-size: 15px;
+    }
+}
+
+/* KEYFRAMES */
+
+/* H2 - TECNOLOGIA A UN CLICK DE DISTANCIA */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
