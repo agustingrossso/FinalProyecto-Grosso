@@ -382,12 +382,7 @@ img {
     margin-left: 690px;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
-/*.contenedorImg {
-    background-color: black;
-    max-width: 12000px;
-    margin-left: 352px;
 
-}*/
 .SmartImg{
     max-width: 1200px;
     margin-left: 352px;
@@ -548,6 +543,100 @@ p.Infinit{
     position: absolute;
     margin-top: 475px;
 }
+/* CONTACTO */ 
+.fondoContacto{
+    background-color: #8CACE0;
+    max-width: 1200px;
+    margin-left: 352px;
+}
+
+
+.contacto{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding-top:  125px;
+    margin-bottom:  -25px;
+
+}
+.formulario{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario input{
+    display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-family: "Comfortaa";
+}
+
+.formulario textarea{
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.formulario input[type="submit"]{
+    width: 200px;
+    margin: 0 auto;
+    background: none;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+/* QUIENES SOMOS */ 
+.QuienesS{
+    background-color: #4a77c0;
+    max-width: 1200px;
+    margin-left: 360px;
+}
+
+.QuienesImg{
+    max-width: 1200px;
+    margin-left: 0px
+}
+
+.mapa iframe{
+    width: 1200px;
+    height: 300px;
+}
+.QuienesTitulo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.QuienesTitulo:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.QuienesLorem{
+    max-width: 700px;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 
 
